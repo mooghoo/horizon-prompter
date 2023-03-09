@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@adrianhurt/mic-volume-meter": "^0.1.1",
-    "@emotion/react": "^11.9.0",
+    "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.8.1",
     "@hackclub/meta": "^1.1.32",
     "@hackclub/theme": "^0.3.3",
@@ -22,6 +22,7 @@
     "next": "^12.1.6",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "styled-components": "^5.3.8",
     "theme-ui": "^0.14.5"
   }
 }

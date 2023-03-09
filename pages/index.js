@@ -457,7 +457,7 @@ export default function Index() {
     <Flex p={3} sx={{ flexDirection: 'column', height: '100vh' }}>
       <Flex
         sx={{
-          bg: stage!= 4 ? `rgba(255, 71, 148, ${stage * 0.25})` : "#FF4794",
+          bg: stage!= 4 ? `rgba(0, 86, 64, ${stage * 0.25})` : "#005640",
           fontSize: stage != 4 ? '96px' : '144px',
           lineHeight: stage != 4 ? null : 1,
           borderRadius: 5,

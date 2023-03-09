@@ -1,19 +1,18 @@
 import * as React from 'react'
 import NextApp from 'next/app'
-import '@hackclub/theme/fonts/reg-bold.css'
-import theme from '@hackclub/theme'
+import theme from "../components/force-theme"
 import { ThemeProvider } from 'theme-ui'
 import ForceTheme from '../components/force-theme'
-import Meta from '@hackclub/meta'
+import { Global, css } from "@emotion/react"
+import { GlobalStyles } from "../components/theme-config"
 
 export default class App extends NextApp {
   render() {
     const { Component, pageProps } = this.props
     return (
-      <ThemeProvider theme={theme}>
-        <ForceTheme theme="dark" />
-        <Component {...pageProps} />
-        <Meta title="Choose The Prompt For Epoch" />
+      <ThemeProvider>
+      <GlobalStyles />
+      <Component {...pageProps} />
       </ThemeProvider>
     )
   }
