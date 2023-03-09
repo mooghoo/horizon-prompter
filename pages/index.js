@@ -432,7 +432,7 @@ let ex = "Stupid Shit Everybody Needs"
 
 export default function Index() {
   const [stage, setStage] = useState(0)
-  const [prompt, setPrompt] = useState(`Begin Epoch's Prompt:`)
+  const [prompt, setPrompt] = useState(`Begin Horizon's Prompt:`)
   function processVote(word) {
     if (stage == 0) {
       setPrompt(word)
