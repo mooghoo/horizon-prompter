@@ -1,6 +1,6 @@
-# Epoch Prompter
+# Horizon Prompter
 
-🤪 A **static** Next.js site to choose a prompt for Epoch!
+Prompt chooser for Horizon! Forked from [Epoch's Prompter](https://github.com/hackclub/epoch-prompter)!
 
 ## Usage
 
