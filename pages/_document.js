@@ -12,6 +12,13 @@ export default class extends Document {
       <Html lang="en">
         <Head />
         <body>
+        <link
+                  rel="preload"
+                  href="./public/BLMelody-Medium.woff"
+                  as="font"
+                  type="font/woff"
+                  crossOrigin=""
+                />
           <Main />
           <NextScript />
         </body>

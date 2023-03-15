@@ -69,7 +69,7 @@ let options = {
         Entertain: null
       },
       With: {
-        Troglodytes: null,
+        Cookies: null,
         Elephants: null,
         Cameras: null,
         Humans: null
@@ -78,7 +78,7 @@ let options = {
         Colour: null,
         "A Sense": null,
         Sleep: null,
-        Murder: null
+        Cookies: null
       }
     },
     Surprises: {
@@ -95,7 +95,7 @@ let options = {
         Unoriginal: null
       },
       With: {
-        Troglodytes: null,
+        Cookies: null,
         Elephants: null,
         Cameras: null,
         Humans: null
@@ -104,11 +104,11 @@ let options = {
         Colour: null,
         "A Sense": null,
         Sleep: null,
-        Murder: null
+        Cookies: null
       }
     }
   },
-  Exuberant: {
+  Irritating: {
     Gizmos: {
       For: {
         Troglodytes: null,
@@ -132,7 +132,7 @@ let options = {
         Colour: null,
         "A Sense": null,
         Sleep: null,
-        Murder: null
+        Cookies: null
       }
     },
     Adventures: {
@@ -158,7 +158,7 @@ let options = {
         "A Guide": null,
         "A Sense": null,
         Sleep: null,
-        Murder: null
+        Cookies: null
       }
     },
     Hacks: {
@@ -184,7 +184,7 @@ let options = {
         "A Guide": null,
         "A Sense": null,
         Sleep: null,
-        Murder: null
+        Cookies: null
       }
     },
     "Shit": {
@@ -210,11 +210,11 @@ let options = {
         Colour: null,
         "A Sense": null,
         Sleep: null,
-        Murder: null
+        Cookies: null
       }
     },
   },
-  Stupid: {
+  Nostalgic: {
     Gizmos: {
       For: {
         Monkeys: null,
@@ -235,7 +235,7 @@ let options = {
         Loves: null
       },
       Without: {
-        Colour: null,
+        Cookies: null,
         Sound: null,
         Sleep: null,
         Humans: null
@@ -287,7 +287,7 @@ let options = {
         Loves: null
       },
       Without: {
-        Colour: null,
+        Cookies: null,
         Sound: null,
         Sleep: null,
         Humans: null
@@ -313,14 +313,14 @@ let options = {
         Loves: null
       },
       Without: {
-        Colour: null,
+        Cookies: null,
         Sound: null,
         Sleep: null,
         Humans: null
       }
     }
   },
-  Extraterrestrial: {
+  Ancient: {
     Life: {
       On: {
         Earth: null,
@@ -335,7 +335,7 @@ let options = {
         Entertain: null
       },
       With: {
-        Troglodytes: null,
+        Cookies: null,
         "Cricket": null,
         Intelligence: null,
         "out Brains": null
@@ -343,7 +343,7 @@ let options = {
       Without: {
         "A Guide": null,
         "A Sense": null,
-        Colour: null,
+        Cookies: null,
         "Home": null
       }
     },
@@ -367,10 +367,10 @@ let options = {
         Japan: null
       },
       Without: {
-        Colour: null,
+        Color: null,
         "A Sense": null,
         Sleep: null,
-        Murder: null
+        Cookies: null
       }
     },
     Gadgets: {
@@ -396,7 +396,7 @@ let options = {
         Colour: null,
         "A Sense": null,
         Sleep: null,
-        Murder: null
+        Cookies: null
       }
     },
     Technology: {
@@ -419,7 +419,7 @@ let options = {
         Loves: null
       },
       Without: {
-        Colour: null,
+        Cookies: null,
         "Sanity": null,
         "Documentation": null,
         "WiFi": null
@@ -428,7 +428,7 @@ let options = {
   }
 }
 
-let ex = "Stupid Shit Everybody Needs"
+let ex = "Stupid Stuff Everybody Needs"
 
 export default function Index() {
   const [stage, setStage] = useState(0)
@@ -474,7 +474,7 @@ export default function Index() {
       </Flex>
       {stage != 4 &&
       <Grid columns={2} pt={3} sx={{ flexGrow: 1 }} rows={'1fr 1fr'}>
-        {['green', 'orange', 'red', 'purple'].map((color, index) => {
+        {['#f7be00', '#7A4E15', '#dda15e', '#f9a620'].map((color, index) => {
           let word = Object.keys(
             stage == 0 ? options : workDownTree(stage, options)
           )[index]
