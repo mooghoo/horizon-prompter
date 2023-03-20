@@ -2,28 +2,28 @@ import { Box, Text, Grid, Flex } from 'theme-ui'
 import { useState } from 'react'
 
 let options = {
-  Unexpected: {
+  Cringe: {
     But: {
       Expected: {
-        Gizmos: null,
+        Quests: null,
         Adventures: null,
         Hacks: null,
         Creations: null
       },
-      Lame: {
-        Gizmos: null,
+      Free: {
+        Quests: null,
         Adventures: null,
         Hacks: null,
         Creations: null
       },
       Solved: {
-        Gizmos: null,
+        Quests: null,
         Adventures: null,
         Hacks: null,
         Mysteries: null
       },
       Unoriginal: {
-        Gizmos: null,
+        Quests: null,
         Adventures: null,
         Hacks: null,
         Mysteries: null
@@ -31,25 +31,25 @@ let options = {
     },
     And: {
       Uncertain: {
-        Gizmos: null,
+        Quests: null,
         Adventures: null,
         Hacks: null,
         Creations: null
       },
-      Exuberant: {
-        Gizmos: null,
+      Bubbly: {
+        Quests: null,
         Adventures: null,
         Hacks: null,
         Creations: null
       },
-      Unexplored: {
-        Gizmos: null,
+      Whimsical: {
+        Quests: null,
         Adventures: null,
         Hacks: null,
         Creations: null
       },
       Unsolved: {
-        Gizmos: null,
+        Quests: null,
         Adventures: null,
         Hacks: null,
         Mysteries: null
@@ -57,8 +57,8 @@ let options = {
     },
     Experiences: {
       For: {
-        Troglodytes: null,
-        Elephants: null,
+        "Girl Scouts": null,
+        TikTokers: null,
         Pokemon: null,
         Humans: null
       },
@@ -70,21 +70,21 @@ let options = {
       },
       With: {
         Cookies: null,
-        Elephants: null,
+        TikTokers: null,
         Cameras: null,
         Humans: null
       },
       Without: {
         Colour: null,
-        "A Sense": null,
+        "A Purpose": null,
         Sleep: null,
         Cookies: null
       }
     },
     Surprises: {
       For: {
-        Troglodytes: null,
-        Elephants: null,
+        "Girl Scouts": null,
+        TikTokers: null,
         Pokemon: null,
         Humans: null
       },
@@ -102,27 +102,27 @@ let options = {
       },
       Without: {
         Colour: null,
-        "A Sense": null,
+        "A Purpose": null,
         Sleep: null,
         Cookies: null
       }
     }
   },
   Irritating: {
-    Gizmos: {
+    Quests: {
       For: {
-        Troglodytes: null,
-        Elephants: null,
+        "Girl Scouts": null,
+        TikTokers: null,
         Pokemon: null,
         Humans: null
       },
       That: {
-        Shriek: null,
+        Slay: null,
         Infuriate: null,
         Combust: null,
         Entertain: null
       },
-      Everybody: {
+      Nobody: {
         Wants: null,
         Needs: null,
         Hates: null,
@@ -130,15 +130,15 @@ let options = {
       },
       Without: {
         Colour: null,
-        "A Sense": null,
+        "A Purpose": null,
         Sleep: null,
         Cookies: null
       }
     },
     Adventures: {
       For: {
-        Troglodytes: null,
-        Elephants: null,
+        "Girl Scouts": null,
+        TikTokers: null,
         Pokemon: null,
         Humans: null
       },
@@ -148,7 +148,7 @@ let options = {
         "Unlock...": null,
         Entertain: null
       },
-      Everybody: {
+      Nobody: {
         Enjoys: null,
         Takes: null,
         Hates: null,
@@ -156,15 +156,15 @@ let options = {
       },
       Without: {
         "A Guide": null,
-        "A Sense": null,
+        "A Purpose": null,
         Sleep: null,
         Cookies: null
       }
     },
     Hacks: {
       For: {
-        Troglodytes: null,
-        Elephants: null,
+        "Girl Scouts": null,
+        TikTokers: null,
         Pokemon: null,
         Humans: null
       },
@@ -174,7 +174,7 @@ let options = {
         "Unlock...": null,
         Entertain: null
       },
-      Everybody: {
+      Nobody: {
         Enjoys: null,
         Takes: null,
         Hates: null,
@@ -182,25 +182,25 @@ let options = {
       },
       Without: {
         "A Guide": null,
-        "A Sense": null,
+        "A Purpose": null,
         Sleep: null,
         Cookies: null
       }
     },
-    "Shit": {
+    "Creations": {
       For: {
-        Troglodytes: null,
-        Elephants: null,
+        "Girl Scouts": null,
+        TikTokers: null,
         Pokemon: null,
         Humans: null
       },
       That: {
-        Shriek: null,
+        Slay: null,
         Infuriate: null,
         Combust: null,
         Entertain: null
       },
-      Everybody: {
+      Nobody: {
         Wants: null,
         Needs: null,
         Hates: null,
@@ -208,27 +208,27 @@ let options = {
       },
       Without: {
         Colour: null,
-        "A Sense": null,
+        "A Purpose": null,
         Sleep: null,
         Cookies: null
       }
     },
   },
   Nostalgic: {
-    Gizmos: {
+    Quests: {
       For: {
-        Monkeys: null,
+        "Girl Scouts": null,
         Elephants: null,
-        Chickens: null,
+        TikTokers: null,
         Humans: null
       },
       That: {
         Runs: null,
         Sleeps: null,
         Eats: null,
-        Dabs: null
+        Slays: null
       },
-      Everybody: {
+      Nobody: {
         Wants: null,
         Needs: null,
         Hates: null,
@@ -241,20 +241,20 @@ let options = {
         Humans: null
       }
     },
-    Websites: {
+    Inventions: {
       For: {
-        Monkeys: null,
-        Elephants: null,
-        Chickens: null,
+        "Girl Scouts": null,
+        TikTokers: null,
+        TikTokers: null,
         Humans: null
       },
       That: {
         Runs: null,
         Sleeps: null,
         Eats: null,
-        Dabs: null
+        Slays: null
       },
-      Everybody: {
+      Nobody: {
         Wants: null,
         Needs: null,
         Hates: null,
@@ -267,20 +267,20 @@ let options = {
         Humans: null
       }
     },
-    Shit: {
+    Creations: {
       For: {
         Monkeys: null,
         Elephants: null,
-        Chickens: null,
+        TikTokers: null,
         Humans: null
       },
       That: {
         Runs: null,
         Sleeps: null,
         Eats: null,
-        Dabs: null
+        Slays: null
       },
-      Everybody: {
+      Nobody: {
         Wants: null,
         Needs: null,
         Hates: null,
@@ -293,20 +293,20 @@ let options = {
         Humans: null
       }
     },
-    Apps: {
+    Projects: {
       For: {
-        Monkeys: null,
+        "Girl Scouts": null,
         Elephants: null,
-        Chickens: null,
+        TikTokers: null,
         Humans: null
       },
       That: {
-        Runs: null,
-        Sleeps: null,
-        Eats: null,
-        Dabs: null
+        Run: null,
+        Sleep: null,
+        Eat: null,
+        Slay: null
       },
-      Everybody: {
+      Nobody: {
         Wants: null,
         Needs: null,
         Hates: null,
@@ -316,7 +316,7 @@ let options = {
         Cookies: null,
         Sound: null,
         Sleep: null,
-        Humans: null
+        TikTokers: null
       }
     }
   },
@@ -326,7 +326,7 @@ let options = {
         Earth: null,
         "A Mission": null,
         Uranus: null,
-        Stimulants: null
+        Instagram: null
       },
       That: {
         "Faces Turbulence": null,
@@ -336,21 +336,21 @@ let options = {
       },
       With: {
         Cookies: null,
-        "Cricket": null,
+        TikTok: null,
         Intelligence: null,
         "out Brains": null
       },
       Without: {
         "A Guide": null,
-        "A Sense": null,
+        "A Purpose": null,
         Cookies: null,
-        "Home": null
+        TikTok: null
       }
     },
     Experiences: {
       For: {
-        Troglodytes: null,
-        Elephants: null,
+        "Girl Scouts": null,
+        TikTokers: null,
         Pokemon: null,
         Humans: null
       },
@@ -361,32 +361,32 @@ let options = {
         Entertain: null
       },
       In: {
-        Delhi: null,
+        NYC: null,
         Space: null,
         School: null,
-        Japan: null
+        "The Ocean": null
       },
       Without: {
         Color: null,
-        "A Sense": null,
+        TikTok: null,
         Sleep: null,
-        Cookies: null
+        "Cookies": null
       }
     },
     Gadgets: {
       For: {
-        Troglodytes: null,
-        Elephants: null,
+        "Girl Scouts": null,
+        TikTokers: null,
         Pokemon: null,
         Humans: null
       },
       That: {
-        Shriek: null,
+        Slay: null,
         Infuriate: null,
         Combust: null,
         Entertain: null
       },
-      Everybody: {
+      Nobody: {
         Wants: null,
         Needs: null,
         Hates: null,
@@ -394,25 +394,25 @@ let options = {
       },
       Without: {
         Colour: null,
-        "A Sense": null,
+        TikTokers: null,
         Sleep: null,
         Cookies: null
       }
     },
     Technology: {
       For: {
-        Troglodytes: null,
-        Elephants: null,
+        "Girl Scouts": null,
+        TikTokers: null,
         Pokemon: null,
         Humans: null
       },
       That: {
-        Shriek: null,
+        Slay: null,
         Infuriate: null,
         Combust: null,
         Entertain: null
       },
-      Everybody: {
+      Nobody: {
         Wants: null,
         Needs: null,
         Hates: null,
@@ -421,14 +421,14 @@ let options = {
       Without: {
         Cookies: null,
         "Sanity": null,
-        "Documentation": null,
+        TikTokers: null,
         "WiFi": null
       }
     },
   }
 }
 
-let ex = "Stupid Stuff Everybody Needs"
+let ex = "Stupid Stuff Nobody Needs"
 
 export default function Index() {
   const [stage, setStage] = useState(0)
