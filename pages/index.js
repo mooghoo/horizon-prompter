@@ -16,7 +16,7 @@ let options = {
         Hacks: null,
         Creations: null
       },
-      Solved: {
+      Funny: {
         Quests: null,
         Adventures: null,
         Hacks: null,
@@ -96,7 +96,7 @@ let options = {
       },
       With: {
         Cookies: null,
-        Elephants: null,
+        Dolphins: null,
         Cameras: null,
         Humans: null
       },
@@ -108,7 +108,7 @@ let options = {
       }
     }
   },
-  Irritating: {
+  Deranged: {
     Quests: {
       For: {
         "Girl Scouts": null,
@@ -218,7 +218,7 @@ let options = {
     Quests: {
       For: {
         "Girl Scouts": null,
-        Elephants: null,
+        Dolphins: null,
         TikTokers: null,
         Humans: null
       },
@@ -244,7 +244,7 @@ let options = {
     Inventions: {
       For: {
         "Girl Scouts": null,
-        TikTokers: null,
+        Dolphins: null,
         TikTokers: null,
         Humans: null
       },
@@ -270,7 +270,7 @@ let options = {
     Creations: {
       For: {
         Monkeys: null,
-        Elephants: null,
+        Dolphins: null,
         TikTokers: null,
         Humans: null
       },
@@ -296,7 +296,7 @@ let options = {
     Projects: {
       For: {
         "Girl Scouts": null,
-        Elephants: null,
+        Dolphins: null,
         TikTokers: null,
         Humans: null
       },
